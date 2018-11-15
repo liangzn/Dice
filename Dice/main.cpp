@@ -18,7 +18,6 @@ int main(int argc, const char * argv[]) {
 	std::cout << "-----------" << DICE_COUNT << " dices---------" << std::endl;
 	std::cout << '\n' << std::endl;
 	
-	// Test all catagories with 5 dices.
 	for (int i = 0; i < DICE_SIDES; i++)
 	{
 		int score = game.CalculateHighestScore(diceValuesSix[i]);
