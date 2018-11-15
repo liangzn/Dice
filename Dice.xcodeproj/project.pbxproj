@@ -105,7 +105,7 @@
 		84990C08219D57F700E991B3 /* Catagory */ = {
 			isa = PBXGroup;
 			children = (
-				84990C0A219D580D00E991B3 /* ICatagory.hpp */,
+				84990C3E219E050C00E991B3 /* Interface */,
 				84990C0C219D581E00E991B3 /* ThreeOfAKind.cpp */,
 				84990C0D219D581E00E991B3 /* ThreeOfAKind.hpp */,
 				84990C0F219D582A00E991B3 /* FourOfAKind.cpp */,
@@ -124,6 +124,14 @@
 				84990C30219D6DD700E991B3 /* AllSame.hpp */,
 			);
 			path = Catagory;
+			sourceTree = "<group>";
+		};
+		84990C3E219E050C00E991B3 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84990C0A219D580D00E991B3 /* ICatagory.hpp */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

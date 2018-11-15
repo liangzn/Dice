@@ -9,7 +9,7 @@
 #ifndef LargeStraight_hpp
 #define LargeStraight_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // LargeStraight: If all five dice fall in sequence score 40, otherwise zero.  For example {3,4,5,6,7} scores 40.
 class LargeStraight : public ICatagory

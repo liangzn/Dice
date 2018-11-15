@@ -9,7 +9,7 @@
 #ifndef ThreeOfAKind_hpp
 #define ThreeOfAKind_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // ThreeOfAKind: Sum of all dice if there are at least three dice that are the same, otherwise zero. For example {1,1,1,2,8} scores 13.
 class ThreeOfAKind : public ICatagory

@@ -9,7 +9,7 @@
 #ifndef AllSame_hpp
 #define AllSame_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // AllSame: If all five dice have the same value score 50, otherwise zero.  For example {1,1,1,1,1} scores 50.
 class AllSame : public ICatagory

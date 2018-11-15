@@ -9,7 +9,7 @@
 #ifndef FullHouse_hpp
 #define FullHouse_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // FullHouse: If there are three of one kind and two of another score 25, otherwise score zero. For example {1,1,1,8,8} scores 25.
 class FullHouse : public ICatagory

@@ -9,7 +9,7 @@
 #ifndef AllDifferent_hpp
 #define AllDifferent_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // AllDifferent: If all five dice have unique values score 40, otherwise zero.  For example {1,2,4,6,8} scores 40.
 class AllDifferent : public ICatagory

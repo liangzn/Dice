@@ -9,7 +9,7 @@
 #ifndef SmallStraight_hpp
 #define SmallStraight_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // SmallStraight: If there are four dice in sequence score 30, otherwise zero. For example {1,2,3,4,7} scores 30.
 class SmallStraight : public ICatagory

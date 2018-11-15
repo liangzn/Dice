@@ -9,7 +9,7 @@
 #ifndef FourOfAKind_hpp
 #define FourOfAKind_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // FourOfAKind: Sum of all dice if there are at least four dice that are the same, otherwise zero. For example {1,1,1,1,8} scores 12.
 class FourOfAKind : public ICatagory

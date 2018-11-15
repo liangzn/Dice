@@ -14,6 +14,10 @@ int main(int argc, const char * argv[]) {
 	
 	GameManager game;
 	
+	std::cout << '\n' << std::endl;
+	std::cout << "---------- 5 dices---------" << std::endl;
+	std::cout << '\n' << std::endl;
+	
 	// Test all catagories with 5 dices.
 	for (int i = 0; i < DICE_SIDES; i++)
 	{
@@ -21,6 +25,8 @@ int main(int argc, const char * argv[]) {
 		std::cout << outputText[i] << score << std::endl;
 	}
 	
+	std::cout << '\n' << std::endl;
+	std::cout << "---------- 6 dices---------" << std::endl;
 	std::cout << '\n' << std::endl;
 	
 	// Test all catagories with 6 dices.

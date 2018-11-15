@@ -9,7 +9,7 @@
 #ifndef Chance_hpp
 #define Chance_hpp
 
-#include "ICatagory.hpp"
+#include "Interface/ICatagory.hpp"
 
 // Chance: Sum of all dice. For example {1,2,1,8,8} scores 20.
 class Chance : public ICatagory
