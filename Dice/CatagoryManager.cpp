@@ -26,10 +26,6 @@ CatagoryManager::CatagoryManager()
 CatagoryManager::~CatagoryManager()
 {
 	std::cout << "~CatagoryManager: released." << std::endl;
-	catagories.clear();
-	for (auto catagory : catagories)
-		catagory.reset();
-	instance = NULL;
 }
 
 std::shared_ptr<CatagoryManager> CatagoryManager::GetInstance()
