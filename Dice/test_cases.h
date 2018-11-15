@@ -22,6 +22,18 @@ int diceValues[8][5] =
 	{2, 2, 2, 2, 2}     // All Same
 };
 
+int diceValuesSix[8][6] =
+{
+	{1, 1, 1, 2, 8, 4},    // Three of a Kind
+	{1, 1, 1, 1, 8, 3},    // Four of A Kind
+	{1, 1, 1, 2, 2, 4},    // Full House
+	{2, 4, 3, 3, 5, 4},    // Small Straight
+	{6, 5, 4, 7, 8, 1},    // Large Straight
+	{1, 8, 6, 7, 3, 2},    // All Different
+	{1, 1, 2, 2, 8, 8},    // Chance
+	{2, 2, 2, 2, 2, 2}     // All Same
+};
+
 // For unit test.
 const std::string outputText[8] =
 {
