@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
 	GameManager game;
 	
 	std::cout << '\n' << std::endl;
-	std::cout << "-----------5 dices---------" << std::endl;
+	std::cout << "-----------" << DICE_COUNT << " dices---------" << std::endl;
 	std::cout << '\n' << std::endl;
 	
 	// Test all catagories with 5 dices.
