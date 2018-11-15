@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		84990C02219D579600E991B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C01219D579600E991B3 /* main.cpp */; };
+		84990C0E219D581E00E991B3 /* ThreeOfAKind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C0C219D581E00E991B3 /* ThreeOfAKind.cpp */; };
+		84990C11219D582A00E991B3 /* FourOfAKind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C0F219D582A00E991B3 /* FourOfAKind.cpp */; };
+		84990C27219D58A900E991B3 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C25219D58A900E991B3 /* GameManager.cpp */; };
+		84990C2A219D58B700E991B3 /* CatagoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C28219D58B700E991B3 /* CatagoryManager.cpp */; };
+		84990C37219D6DD700E991B3 /* AllDifferent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C2B219D6DD600E991B3 /* AllDifferent.cpp */; };
+		84990C38219D6DD700E991B3 /* LargeStraight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C2C219D6DD600E991B3 /* LargeStraight.cpp */; };
+		84990C39219D6DD700E991B3 /* FullHouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C2D219D6DD600E991B3 /* FullHouse.cpp */; };
+		84990C3A219D6DD700E991B3 /* Chance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C2E219D6DD600E991B3 /* Chance.cpp */; };
+		84990C3B219D6DD700E991B3 /* AllSame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C33219D6DD700E991B3 /* AllSame.cpp */; };
+		84990C3C219D6DD700E991B3 /* SmallStraight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84990C35219D6DD700E991B3 /* SmallStraight.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,28 @@
 /* Begin PBXFileReference section */
 		84990BFE219D579600E991B3 /* Dice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dice; sourceTree = BUILT_PRODUCTS_DIR; };
 		84990C01219D579600E991B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84990C0A219D580D00E991B3 /* ICatagory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ICatagory.hpp; sourceTree = "<group>"; };
+		84990C0C219D581E00E991B3 /* ThreeOfAKind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeOfAKind.cpp; sourceTree = "<group>"; };
+		84990C0D219D581E00E991B3 /* ThreeOfAKind.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreeOfAKind.hpp; sourceTree = "<group>"; };
+		84990C0F219D582A00E991B3 /* FourOfAKind.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FourOfAKind.cpp; sourceTree = "<group>"; };
+		84990C10219D582A00E991B3 /* FourOfAKind.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FourOfAKind.hpp; sourceTree = "<group>"; };
+		84990C24219D588000E991B3 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		84990C25219D58A900E991B3 /* GameManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
+		84990C26219D58A900E991B3 /* GameManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameManager.hpp; sourceTree = "<group>"; };
+		84990C28219D58B700E991B3 /* CatagoryManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CatagoryManager.cpp; sourceTree = "<group>"; };
+		84990C29219D58B700E991B3 /* CatagoryManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CatagoryManager.hpp; sourceTree = "<group>"; };
+		84990C2B219D6DD600E991B3 /* AllDifferent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AllDifferent.cpp; sourceTree = "<group>"; };
+		84990C2C219D6DD600E991B3 /* LargeStraight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargeStraight.cpp; sourceTree = "<group>"; };
+		84990C2D219D6DD600E991B3 /* FullHouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FullHouse.cpp; sourceTree = "<group>"; };
+		84990C2E219D6DD600E991B3 /* Chance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chance.cpp; sourceTree = "<group>"; };
+		84990C2F219D6DD600E991B3 /* Chance.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Chance.hpp; sourceTree = "<group>"; };
+		84990C30219D6DD700E991B3 /* AllSame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AllSame.hpp; sourceTree = "<group>"; };
+		84990C31219D6DD700E991B3 /* FullHouse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FullHouse.hpp; sourceTree = "<group>"; };
+		84990C32219D6DD700E991B3 /* AllDifferent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AllDifferent.hpp; sourceTree = "<group>"; };
+		84990C33219D6DD700E991B3 /* AllSame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AllSame.cpp; sourceTree = "<group>"; };
+		84990C34219D6DD700E991B3 /* LargeStraight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LargeStraight.hpp; sourceTree = "<group>"; };
+		84990C35219D6DD700E991B3 /* SmallStraight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmallStraight.cpp; sourceTree = "<group>"; };
+		84990C36219D6DD700E991B3 /* SmallStraight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SmallStraight.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +89,39 @@
 		84990C00219D579600E991B3 /* Dice */ = {
 			isa = PBXGroup;
 			children = (
+				84990C08219D57F700E991B3 /* Catagory */,
 				84990C01219D579600E991B3 /* main.cpp */,
+				84990C24219D588000E991B3 /* config.h */,
+				84990C25219D58A900E991B3 /* GameManager.cpp */,
+				84990C26219D58A900E991B3 /* GameManager.hpp */,
+				84990C28219D58B700E991B3 /* CatagoryManager.cpp */,
+				84990C29219D58B700E991B3 /* CatagoryManager.hpp */,
 			);
 			path = Dice;
+			sourceTree = "<group>";
+		};
+		84990C08219D57F700E991B3 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				84990C0A219D580D00E991B3 /* ICatagory.hpp */,
+				84990C0C219D581E00E991B3 /* ThreeOfAKind.cpp */,
+				84990C0D219D581E00E991B3 /* ThreeOfAKind.hpp */,
+				84990C0F219D582A00E991B3 /* FourOfAKind.cpp */,
+				84990C10219D582A00E991B3 /* FourOfAKind.hpp */,
+				84990C2D219D6DD600E991B3 /* FullHouse.cpp */,
+				84990C31219D6DD700E991B3 /* FullHouse.hpp */,
+				84990C35219D6DD700E991B3 /* SmallStraight.cpp */,
+				84990C36219D6DD700E991B3 /* SmallStraight.hpp */,
+				84990C2C219D6DD600E991B3 /* LargeStraight.cpp */,
+				84990C34219D6DD700E991B3 /* LargeStraight.hpp */,
+				84990C2B219D6DD600E991B3 /* AllDifferent.cpp */,
+				84990C32219D6DD700E991B3 /* AllDifferent.hpp */,
+				84990C2E219D6DD600E991B3 /* Chance.cpp */,
+				84990C2F219D6DD600E991B3 /* Chance.hpp */,
+				84990C33219D6DD700E991B3 /* AllSame.cpp */,
+				84990C30219D6DD700E991B3 /* AllSame.hpp */,
+			);
+			path = Catagory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84990C3C219D6DD700E991B3 /* SmallStraight.cpp in Sources */,
+				84990C38219D6DD700E991B3 /* LargeStraight.cpp in Sources */,
+				84990C11219D582A00E991B3 /* FourOfAKind.cpp in Sources */,
+				84990C37219D6DD700E991B3 /* AllDifferent.cpp in Sources */,
+				84990C3A219D6DD700E991B3 /* Chance.cpp in Sources */,
+				84990C27219D58A900E991B3 /* GameManager.cpp in Sources */,
+				84990C3B219D6DD700E991B3 /* AllSame.cpp in Sources */,
 				84990C02219D579600E991B3 /* main.cpp in Sources */,
+				84990C39219D6DD700E991B3 /* FullHouse.cpp in Sources */,
+				84990C2A219D58B700E991B3 /* CatagoryManager.cpp in Sources */,
+				84990C0E219D581E00E991B3 /* ThreeOfAKind.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
