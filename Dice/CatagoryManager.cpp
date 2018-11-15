@@ -7,8 +7,9 @@
 //
 
 #include "CatagoryManager.hpp"
+#include <iostream>
 
-CatagoryManager* CatagoryManager::instance = NULL;
+std::shared_ptr<CatagoryManager> CatagoryManager::instance = NULL;
 
 CatagoryManager::CatagoryManager()
 {
@@ -20,19 +21,24 @@ CatagoryManager::CatagoryManager()
 	catagories.push_back(std::shared_ptr<ICatagory>(new AllDifferent()));
 	catagories.push_back(std::shared_ptr<ICatagory>(new Chance()));
 	catagories.push_back(std::shared_ptr<ICatagory>(new AllSame()));
-	instance = this;
 }
 
 CatagoryManager::~CatagoryManager()
 {
+	std::cout << "~CatagoryManager: released." << std::endl;
 	catagories.clear();
+	for (auto catagory : catagories)
+		catagory.reset();
 	instance = NULL;
 }
 
-CatagoryManager* CatagoryManager::GetInstance()
+std::shared_ptr<CatagoryManager> CatagoryManager::GetInstance()
 {
-	if (!instance)
-		instance = new CatagoryManager();
+	if (instance == NULL)
+	{
+		std::cout << "CatagoryManager::GetInstance(): created." << std::endl;
+		instance = std::shared_ptr<CatagoryManager>(new CatagoryManager());
+	}
 	
 	return instance;
 }

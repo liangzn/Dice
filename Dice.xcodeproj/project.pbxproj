@@ -57,6 +57,7 @@
 		84990C34219D6DD700E991B3 /* LargeStraight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LargeStraight.hpp; sourceTree = "<group>"; };
 		84990C35219D6DD700E991B3 /* SmallStraight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmallStraight.cpp; sourceTree = "<group>"; };
 		84990C36219D6DD700E991B3 /* SmallStraight.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SmallStraight.hpp; sourceTree = "<group>"; };
+		84990C3D219E020D00E991B3 /* test_cases.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_cases.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 			children = (
 				84990C08219D57F700E991B3 /* Catagory */,
 				84990C01219D579600E991B3 /* main.cpp */,
+				84990C3D219E020D00E991B3 /* test_cases.h */,
 				84990C24219D588000E991B3 /* config.h */,
 				84990C25219D58A900E991B3 /* GameManager.cpp */,
 				84990C26219D58A900E991B3 /* GameManager.hpp */,

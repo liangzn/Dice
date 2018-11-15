@@ -11,12 +11,12 @@
 
 ThreeOfAKind::ThreeOfAKind()
 {
-	std::cout << "111" << std::endl;
+	std::cout << "ThreeOfAKind: created." << std::endl;
 }
 
 ThreeOfAKind::~ThreeOfAKind()
 {
-	std::cout << "222" << std::endl;
+	std::cout << "~ThreeOfAKind: released." << std::endl;
 }
 
 int ThreeOfAKind::CatagoryImplementation(int diceValues[DICE_COUNT])

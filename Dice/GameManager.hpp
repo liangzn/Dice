@@ -15,8 +15,9 @@
 class GameManager
 {
 public:
-	int CalculateScoreOnCatagory(int diceValues[DICE_COUNT], std::shared_ptr<ICatagory> catagory);
 	int CalculateHighestScore(int diceValues[DICE_COUNT]);
+private:
+	int CalculateScoreOnCatagory(int diceValues[DICE_COUNT], std::shared_ptr<ICatagory> catagory);
 };
 
 #endif /* GameManager_hpp */

@@ -25,13 +25,13 @@
 class CatagoryManager
 {
 public:
-	CatagoryManager();
-	~CatagoryManager();
-	static CatagoryManager* GetInstance();
+	static std::shared_ptr<CatagoryManager> GetInstance();
 	std::vector<std::shared_ptr<ICatagory>> GetCatagories();
+	~CatagoryManager();
 private:
+	CatagoryManager();
 	std::vector<std::shared_ptr<ICatagory>> catagories;
-	static CatagoryManager* instance;
+	static std::shared_ptr<CatagoryManager> instance;
 };
 
 #endif /* CatagoryManager_hpp */
