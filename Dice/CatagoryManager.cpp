@@ -13,14 +13,14 @@ std::shared_ptr<CatagoryManager> CatagoryManager::instance = NULL;
 
 CatagoryManager::CatagoryManager()
 {
-	catagories.push_back(std::shared_ptr<ICatagory>(new ThreeOfAKind()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new FourOfAKind()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new FullHouse()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new SmallStraight()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new LargeStraight()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new AllDifferent()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new Chance()));
-	catagories.push_back(std::shared_ptr<ICatagory>(new AllSame()));
+	catagories.emplace_back(new ThreeOfAKind());
+	catagories.emplace_back(new FourOfAKind());
+	catagories.emplace_back(new FullHouse());
+	catagories.emplace_back(new SmallStraight());
+	catagories.emplace_back(new LargeStraight());
+	catagories.emplace_back(new AllDifferent());
+	catagories.emplace_back(new Chance());
+	catagories.emplace_back(new AllSame());
 }
 
 CatagoryManager::~CatagoryManager()
